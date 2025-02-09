@@ -1,6 +1,6 @@
 # FPGA PWM Duty Cycle Control
 
-This project implements a **Pulse Width Modulation (PWM) generator** in Verilog, where the **duty cycle is controlled via push buttons**. The PWM output drives an LED to change brightness dynamically.
+This project implements a **Pulse Width Modulation (PWM) generator** in Verilog, where the **duty cycle is controlled via push buttons**. The PWM output drives an LED to change length that LED is on/off dynamically.
 
 ## 🛠 Features
 - **Push-button controlled PWM duty cycle** (increments/decrements by 5%).
