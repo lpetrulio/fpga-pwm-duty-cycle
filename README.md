@@ -10,15 +10,16 @@ This project implements a **Pulse Width Modulation (PWM) generator** in Verilog,
 - **Designed for FPGA applications.**
 
 ## 📂 Project Structure
-clock_divider.v -> clock divider module
-duty_cycle_control.v -> duty cycle manipulation with push buttons module
-pwm_generator.v -> PWM signal generator based on duty cycle module
-top_module -> top module for project connecting the other modules
+- clock_divider.v -> clock divider module
+- duty_cycle_control.v -> duty cycle manipulation with push buttons module
+- pwm_generator.v -> PWM signal generator based on duty cycle module
+- top_module -> top module for project connecting the other modules
 
 Note: 
-No constraints file was included here. io's that need to be mapped are the following
-This project was designed for an internal base clock of 25MHz that is reduced to 100Hz within the clock_divider module, adjust this module if your system clock is different
+- No constraints file was included here. io's that need to be mapped are the following
 
-pwm_led // the PWM output signal
-btn_up // duty control increment up by 5%
-btn_down // duty control increment down by 5%
+- pwm_led // the PWM output signal
+- btn_up // duty control increment up by 5%
+- btn_down // duty control increment down by 5%
+
+- This project was designed for an internal base clock of 25MHz that is reduced to 100Hz within the clock_divider module, adjust this module if your system clock is different
