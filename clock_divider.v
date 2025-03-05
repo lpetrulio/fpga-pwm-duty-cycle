@@ -9,7 +9,7 @@ module clock_divider(
         if (rst) begin
             count <= 0;
             slow_clk <= 0;
-        end else if (count == 249999) begin
+        end else if (count == 124999) begin
             count <= 0;
             slow_clk <= ~slow_clk; // Toggle every 10ms (100Hz)
         end else begin
